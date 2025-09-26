@@ -6,3 +6,5 @@ docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 
 ejecutar JAVA 21 :
 ./gradlew bootRun
+
+Terminal eviar :  curl --location --request POST 'http://localhost:8080/api/v1/notify?msg=testing queue... '
